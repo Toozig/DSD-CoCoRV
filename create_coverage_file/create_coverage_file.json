@@ -1,0 +1,10 @@
+{
+  "gnomAD_coverage_file" : "/cs/prt3/gnomAD_data/gnomAD_DSD/gnomad.genomes.r3.0.1.coverage.summary.tsv.bgz",
+  "all_samples_vcf" : "/cs/prt3/DSD_project/data/git_data/read_only/samples/processed/probands_filtered_all_samples_dsd.vcf.gz",
+  "hg38_ref" : "/cs/prt3/DSD_project/data/git_data/read_only/refrence_genome/hg38/hg38.fa.gz",
+   "DBXCLI" : "/cs/usr/toozig/dbxcli",
+  "VENV" : "/cs/labs/michall/toozig/new_venv/bin/activate",
+  "default_merge_distance" : "1",
+  "output_dir": "data/pipeline_outputs/CoCoVR",
+  "uploadDir" : "Nitzan_Gonen_lab/Joint_projects/WGS_on_DSD/data/pipeline_outputs/CoCoVR"
+}
