@@ -49,6 +49,6 @@ The Create Coverage File Pipeline is a part of the [CoCoRV (Cohort-based Compreh
 
 ## Contact
 
-For questions or issues, please contact [Your Name] at [your.email@example.com].
+For questions or issues, please contact me.
 
 ---
