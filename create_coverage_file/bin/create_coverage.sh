@@ -101,7 +101,7 @@ zcat ${gnomADCoverage} | \
   awk -F'\t' '(NR > 1 && $7 >= 0.9) {split($1, a, "[:-]"); printf "%s\t%d\t%d\n", a[1], a[2]-1, a[2]}' | \
   sort -T $tmpFolder -k1,1 -k2,2n | \
   sed 's/ /\t/g' | \
-  bedtools merge -d $mergeDistance -i stdin 2>> $logFile | \ #-d1  = merge segments with distance of 1
+  bedtools merge -d $mergeDistance -i stdin 2>> $logFile | \
   gzip > ${outputFile}
 
 

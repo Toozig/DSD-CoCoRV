@@ -70,7 +70,7 @@ process createCoverage {
     script:
     output="${chrom}.bed"
     """
-    create_coverage.sh -g ${coverageFile} -c ${chrom} -o ${output} -d ${distance}
+    create_coverage.sh -g ${coverageFile} -c ${chrom} -o ${output} -d ${distance} -t '.'
     echo "done coverage for ${chrom}"
     """
     

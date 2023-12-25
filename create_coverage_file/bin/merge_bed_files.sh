@@ -51,10 +51,10 @@ done
 
 # Sort input files by name if the -s flag is provided
 if [ "$sorted_flag" = true ]; then
-    input_files=($(printf "%s\n" "${input_files[@]}" | sort))
+    input_files=($(ls -1 | sort -V))
 fi
 
 # Use bedtools to concatenate the BED files
-bedtools cat -i "${input_files[@]}" > "$output_file"
+zcat "${input_files[@]}" > "$output_file"
 
 echo "Concatenation completed. Output saved to: $output_file"
